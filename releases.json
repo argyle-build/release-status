@@ -1,0 +1,24 @@
+{
+  "generated_at": "2026-08-12T05:49:53.701Z",
+  "Argylebuild/ML2-Installer": {
+    "tag_name": "v2.2.0",
+    "name": "Argyle Build for Magic Leap 2 v2.2.0",
+    "published_at": "2026-08-03T22:16:40Z",
+    "body": "## What's New\n\n• Improved rendering distance for better visibility of distant structures and project elements\n• Fixed crashes in text rendering and corrected line weight display for more accurate blueprint visualization\n• Enhanced model pipeline for faster and more reliable asset loading on job sites\n\n## Changes since v2.1.1\n\n- render distance improved (a422631)\n- render fixes (texter crash and line weight) (113528c)\n- combined model pipeline and ryo updates (c00d008)",
+    "html_url": "https://github.com/Argylebuild/ML2-Installer/releases/tag/v2.2.0"
+  },
+  "Argylebuild/Revit-Installer": {
+    "tag_name": "v2.2.0",
+    "name": "Argyle Revit Plugin v2.2.0",
+    "published_at": "2026-08-03T21:47:28Z",
+    "body": "## What's New\n\n# Release Notes - v2.0.6\n\n- **Improved Project Management**: The user interface now hides projects you don't have write access to, reducing confusion and streamlining project selection\n- **Enhanced CAD Import**: Added comprehensive line handling and improved support for CAD file imports\n- **Better Data Export**: Texture support now included in exports, providing more complete model representation\n- **Bug Fixes**: Resolved issues with duplicate API data and improved compatibility with older project manifests\n\n## Changes since v2.0.5\n\n- Matching navis in submodule (1578bea)\n- Dedicated revit signer (087d837)\n- fixed doubles in api data (b1b337a)\n- old bug fix. Still testing textures (8648bc4)\n- added texture to export (c1b8047)\n- lines round 2 for CAD import added. (b7669f9)\n- added line handling (0abb308)\n- updating to latest (deb889b)\n- preventing error from confusing old manifests (5379a5f)\n- Bump actions/checkout from 6 to 7 (068bd7b)\n- user interface no longer lists project that can't be written to (8f32485)",
+    "html_url": "https://github.com/Argylebuild/Revit-Installer/releases/tag/v2.2.0"
+  },
+  "Argylebuild/Navisworks-Installer": {
+    "tag_name": "v2.2.1",
+    "name": "Argyle Navisworks Add-in v2.2.1",
+    "published_at": "2026-08-11T23:11:18Z",
+    "body": "## What's New\n\n# Release Notes - Version 2.2.1\n\n• **Enhanced Export Functionality** – Improved logging during export operations to better diagnose and resolve issues on job sites\n\n• **Publishing Improvements** – Added new filter options to the publish feature for greater control over data synchronization\n\n## Changes since v2.2.0\n\n- added filter and debug to options to publish (7ca7cac)\n- building temp for customer testing (6925a00)\n- Added big logging for export to troubleshoot on customer side. (ceb15a2)",
+    "html_url": "https://github.com/Argylebuild/Navisworks-Installer/releases/tag/v2.2.1"
+  }
+}
