@@ -1,0 +1,41 @@
+name: Update release info
+
+on:
+  schedule:
+    - cron: '*/30 * * * *'   # every 30 minutes
+  workflow_dispatch: {}       # lets you trigger it manually from the Actions tab
+
+permissions:
+  contents: write             # needed so the job can commit releases.json
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Build releases.json
+        run: node scripts/build-releases.mjs
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "release-status-bot"
+          git config user.email "actions@github.com"
+          git add releases.json
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update release info"
+            git push
+          fi
+
+      - name: Purge jsDelivr cache
+        run: curl -s "https://purge.jsdelivr.net/gh/Argylebuild/release-status@main/releases.json"
