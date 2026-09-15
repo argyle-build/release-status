@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-14T22:37:36.319Z",
+  "generated_at": "2026-09-15T01:09:25.356Z",
   "Argylebuild/ML2-Installer": {
-    "tag_name": "v2.2.0",
-    "name": "Argyle Build for Magic Leap 2 v2.2.0",
-    "published_at": "2026-08-03T22:16:40Z",
-    "body": "## What's New\n\n• Improved rendering distance for better visibility of distant structures and project elements\n• Fixed crashes in text rendering and corrected line weight display for more accurate blueprint visualization\n• Enhanced model pipeline for faster and more reliable asset loading on job sites\n\n## Changes since v2.1.1\n\n- render distance improved (a422631)\n- render fixes (texter crash and line weight) (113528c)\n- combined model pipeline and ryo updates (c00d008)",
-    "html_url": "https://github.com/Argylebuild/ML2-Installer/releases/tag/v2.2.0"
+    "tag_name": "v2.2.2",
+    "name": "Argyle Build for Magic Leap 2 v2.2.2",
+    "published_at": "2026-09-14T23:51:25Z",
+    "body": "## What's New\n\n• Improved app stability and performance with enhanced crash protections and frame rate optimization\n• Added ability to attach photos and videos directly to observations for better documentation\n• Fixed gallery issues to ensure photos display and function correctly\n\n## Changes since v2.2.0\n\n- version bump (2990aea)\n- crash protections and ryo framrate improvements (f2fd3f4)\n- photo video attaching to observations (0b73eab)\n- gallery up and running with some needed fixes for photos (bf13859)",
+    "html_url": "https://github.com/Argylebuild/ML2-Installer/releases/tag/v2.2.2"
   },
   "Argylebuild/Revit-Installer": {
     "tag_name": "v2.2.0",
