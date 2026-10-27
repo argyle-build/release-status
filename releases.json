@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-27T20:25:19.548Z",
+  "generated_at": "2026-10-27T23:54:33.113Z",
   "Argylebuild/ML2-Installer": {
     "tag_name": "v2.3.0",
     "name": "Argyle Build for Magic Leap 2 v2.3.0",
     "published_at": "2026-10-27T19:11:33Z",
-    "body": "## What's New\n\n• Improved UI scaling and responsiveness on Magic Leap 2 for better on-site usability\n• Enhanced UI framework with React integration for faster feature development\n• Various bug fixes and stability improvements\n\n## Changes since v2.2.2\n\n- ml2 ui scaling (6b00b42)\n- cicd changes (90b3a08)\n- cicd changes for fewer failures and easier retries (3281162)\n- testing 2.3.0 (1d598d7)\n- ui fixes (b55b6c3)\n- imported major updates for react ui from ios. Not tested in device yet. (cdd7849)\n- showed IPS and got notes (814c65f)\n- Added basic React for Unity infrastructure. Tested in device. Success. (9031509)\n- Add ReactUnity core + QuickJS packages for the code-authored UI spike (b3f6568)",
+    "body": "## What's New\r\n\r\n- MFA on all platforms\r\n- Google SSO on all platforms\r\n- position scramble fixed on Revit exports\r\n- geolocation bug fixed in Navisworks\r\n- New UI in AR apps\r\n- First version of progress tracker\r\n- Geolocation via shared project with gps device. Usable as rough location and gives geolocation of spatialized data (like AR photos)\r\n- RYO anchors are shared again. Only manager and above can upload.\r\n\r\n## Changes since v2.2.2\r\n\r\n- ml2 ui scaling (6b00b42)\r\n- cicd changes (90b3a08)\r\n- cicd changes for fewer failures and easier retries (3281162)\r\n- testing 2.3.0 (1d598d7)\r\n- ui fixes (b55b6c3)\r\n- imported major updates for react ui from ios. Not tested in device yet. (cdd7849)\r\n- showed IPS and got notes (814c65f)\r\n- Added basic React for Unity infrastructure. Tested in device. Success. (9031509)\r\n- Add ReactUnity core + QuickJS packages for the code-authored UI spike (b3f6568)",
     "html_url": "https://github.com/Argylebuild/ML2-Installer/releases/tag/v2.3.0"
   },
   "Argylebuild/Revit-Installer": {
