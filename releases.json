@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-27T15:42:52.726Z",
+  "generated_at": "2026-10-27T20:25:19.548Z",
   "Argylebuild/ML2-Installer": {
-    "tag_name": "v2.2.2",
-    "name": "Argyle Build for Magic Leap 2 v2.2.2",
-    "published_at": "2026-09-14T23:51:25Z",
-    "body": "## What's New\n\n• Improved app stability and performance with enhanced crash protections and frame rate optimization\n• Added ability to attach photos and videos directly to observations for better documentation\n• Fixed gallery issues to ensure photos display and function correctly\n\n## Changes since v2.2.0\n\n- version bump (2990aea)\n- crash protections and ryo framrate improvements (f2fd3f4)\n- photo video attaching to observations (0b73eab)\n- gallery up and running with some needed fixes for photos (bf13859)",
-    "html_url": "https://github.com/Argylebuild/ML2-Installer/releases/tag/v2.2.2"
+    "tag_name": "v2.3.0",
+    "name": "Argyle Build for Magic Leap 2 v2.3.0",
+    "published_at": "2026-10-27T19:11:33Z",
+    "body": "## What's New\n\n• Improved UI scaling and responsiveness on Magic Leap 2 for better on-site usability\n• Enhanced UI framework with React integration for faster feature development\n• Various bug fixes and stability improvements\n\n## Changes since v2.2.2\n\n- ml2 ui scaling (6b00b42)\n- cicd changes (90b3a08)\n- cicd changes for fewer failures and easier retries (3281162)\n- testing 2.3.0 (1d598d7)\n- ui fixes (b55b6c3)\n- imported major updates for react ui from ios. Not tested in device yet. (cdd7849)\n- showed IPS and got notes (814c65f)\n- Added basic React for Unity infrastructure. Tested in device. Success. (9031509)\n- Add ReactUnity core + QuickJS packages for the code-authored UI spike (b3f6568)",
+    "html_url": "https://github.com/Argylebuild/ML2-Installer/releases/tag/v2.3.0"
   },
   "Argylebuild/Revit-Installer": {
     "tag_name": "v2.2.0",
