@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T03:57:52.461Z",
+  "generated_at": "2026-10-28T10:26:46.594Z",
   "Argylebuild/ML2-Installer": {
     "tag_name": "v2.3.0",
     "name": "Argyle Build for Magic Leap 2 v2.3.0",
@@ -15,10 +15,10 @@
     "html_url": "https://github.com/Argylebuild/Revit-Installer/releases/tag/v2.2.0"
   },
   "Argylebuild/Navisworks-Installer": {
-    "tag_name": "v2.2.1",
-    "name": "Argyle Navisworks Add-in v2.2.1",
-    "published_at": "2026-08-11T23:11:18Z",
-    "body": "## What's New\n\n# Release Notes - Version 2.2.1\n\n• **Enhanced Export Functionality** – Improved logging during export operations to better diagnose and resolve issues on job sites\n\n• **Publishing Improvements** – Added new filter options to the publish feature for greater control over data synchronization\n\n## Changes since v2.2.0\n\n- added filter and debug to options to publish (7ca7cac)\n- building temp for customer testing (6925a00)\n- Added big logging for export to troubleshoot on customer side. (ceb15a2)",
-    "html_url": "https://github.com/Argylebuild/Navisworks-Installer/releases/tag/v2.2.1"
+    "tag_name": "v2.3.0",
+    "name": "Argyle Navisworks Add-in v2.3.0",
+    "published_at": "2026-10-28T06:45:47Z",
+    "body": "## What's New\n\n# Release Notes v2.3.0\n\n- **Enhanced Security**: Two-factor authentication (2FA) and Google Login now available for improved account protection\n- **Improved Performance**: Optimized geometry caching and mesh handling for faster processing of complex models\n- **Better Model Export**: Fixed sparse export functionality to ensure complete and reliable file output\n\n## Changes since v2.2.1\n\n- updated the api consumer to match latest (9d15b41)\n- Free the geometry cache after each partition; document the oversized-mesh fix (aceb716)\n- Split oversized element meshes into several primitives; upload every written .bin (e3a5c76)\n- caught up to same code backends (a5f466b)\n- 2fa and google loging added. 2fa successfully tested. (ef3c376)\n- build dev and prod both and put them in private release (02144c0)\n- cicd with automated signing (6d97367)\n- Setup 2027 (768963d)\n- added model pipeline roadmap docs (86130cf)\n- sparse export fix tested. looking pretty good. (2d09728)",
+    "html_url": "https://github.com/Argylebuild/Navisworks-Installer/releases/tag/v2.3.0"
   }
 }
