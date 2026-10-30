@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-30T18:43:05.297Z",
+  "generated_at": "2026-10-30T22:46:22.160Z",
   "Argylebuild/ML2-Installer": {
-    "tag_name": "v2.3.0",
-    "name": "Argyle Build for Magic Leap 2 v2.3.0",
-    "published_at": "2026-10-27T19:11:33Z",
-    "body": "## What's New\r\n\r\n- MFA on all platforms\r\n- Google SSO on all platforms\r\n- position scramble fixed on Revit exports\r\n- geolocation bug fixed in Navisworks\r\n- New UI in AR apps\r\n- First version of progress tracker\r\n- Geolocation via shared project with gps device. Usable as rough location and gives geolocation of spatialized data (like AR photos)\r\n- RYO anchors are shared again. Only manager and above can upload.\r\n\r\n## Changes since v2.2.2\r\n\r\n- ml2 ui scaling (6b00b42)\r\n- cicd changes (90b3a08)\r\n- cicd changes for fewer failures and easier retries (3281162)\r\n- testing 2.3.0 (1d598d7)\r\n- ui fixes (b55b6c3)\r\n- imported major updates for react ui from ios. Not tested in device yet. (cdd7849)\r\n- showed IPS and got notes (814c65f)\r\n- Added basic React for Unity infrastructure. Tested in device. Success. (9031509)\r\n- Add ReactUnity core + QuickJS packages for the code-authored UI spike (b3f6568)",
-    "html_url": "https://github.com/Argylebuild/ML2-Installer/releases/tag/v2.3.0"
+    "tag_name": "v2.3.1",
+    "name": "Argyle Build for Magic Leap 2 v2.3.1",
+    "published_at": "2026-10-30T21:06:49Z",
+    "body": "## What's New\n\n• Added keyboard trigger and attachment support for Magic Leap 2's new UI, improving input flexibility on-site\n• Updated dependencies to enhance stability and security\n\n## Changes since v2.3.0\n\n- rebuild .js (509ba30)\n- addid keyboard trigger and attachment to ML2 new ui (c38f42f)\n- Bump vite from 8.3.0 to 8.3.5 in /react (f6798f0)\n- Bump body-parser from 2.3.0 to 2.4.0 in /react (a7d0063)\n- Bump qs from 6.16.0 to 6.17.0 in /react (d1e9385)\n- Bump fast-uri from 3.1.8 to 3.1.9 in /react (e2539e9)",
+    "html_url": "https://github.com/Argylebuild/ML2-Installer/releases/tag/v2.3.1"
   },
   "Argylebuild/Revit-Installer": {
     "tag_name": "v2.2.0",
