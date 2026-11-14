@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-14T18:57:19.823Z",
+  "generated_at": "2026-11-14T22:53:51.345Z",
   "Argylebuild/ML2-Installer": {
-    "tag_name": "v2.3.1",
-    "name": "Argyle Build for Magic Leap 2 v2.3.1",
-    "published_at": "2026-10-30T21:06:49Z",
-    "body": "## What's New\n\n• Added keyboard trigger and attachment support for Magic Leap 2's new UI, improving input flexibility on-site\n• Updated dependencies to enhance stability and security\n\n## Changes since v2.3.0\n\n- rebuild .js (509ba30)\n- addid keyboard trigger and attachment to ML2 new ui (c38f42f)\n- Bump vite from 8.3.0 to 8.3.5 in /react (f6798f0)\n- Bump body-parser from 2.3.0 to 2.4.0 in /react (a7d0063)\n- Bump qs from 6.16.0 to 6.17.0 in /react (d1e9385)\n- Bump fast-uri from 3.1.8 to 3.1.9 in /react (e2539e9)",
-    "html_url": "https://github.com/Argylebuild/ML2-Installer/releases/tag/v2.3.1"
+    "tag_name": "v2.3.2",
+    "name": "Argyle Build for Magic Leap 2 v2.3.2",
+    "published_at": "2026-11-14T19:55:39Z",
+    "body": "## What's New\n\n• Fixed keyboard input issues on Magic Leap 2\n• Improved Ryo parking garage visualization and performance\n• Updated dependencies for enhanced security and stability\n\n## Changes since v2.3.1\n\n- fixed broken keyboard (4663b75)\n- version bump (71bb479)\n- Ryo improvments combined (e3b6776)\n- improvements staged and readdy for release. Needs bug fixes included. (f5ffbb7)\n- ready for device testing after garage improvements (4802bc5)\n- testing RYO parking garage in ML2 (c1a61e9)\n- Bump shell-quote from 1.10.0 to 1.12.0 in /react (0fc7584)\n- Bump launch-editor from 2.14.1 to 2.14.2 in /react (ecb835a)",
+    "html_url": "https://github.com/Argylebuild/ML2-Installer/releases/tag/v2.3.2"
   },
   "Argylebuild/Revit-Installer": {
     "tag_name": "v2.2.0",
